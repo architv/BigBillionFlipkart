@@ -1,0 +1,2 @@
+* * * * * /usr/bin/python ~/Documents/PyLabs/big_billion_day_flipkart.py >> ~/myCron.log
+* * * * * ( sleep 30 ; /usr/bin/python ~/Documents/PyLabs/big_billion_day_flipkart.py >> ~/myCron.log )
