@@ -5,7 +5,7 @@ BigBillionFlipkart is a python script which runs every 30 seconds to check if th
 
 ##Usage:
 
-Change the path in `myCron.txt` to the directory where `big_billion_day_flipkart.py` is present and then run:
+Change the path in `myCron.txt` to the directory where `big_billion_day_flipkart.py` is present and then open terminal and run:
 
 ```bash
 crontab myCron.txt
