@@ -25,7 +25,7 @@ class BigBillion:
 							price = i.string[17:]
 							if int(price) < 100:
 								flag = flag + 1
-								a = self.clone(soup, i.parent)
+								a = clone(soup, i.parent)
 								print "http://flipkart.com" + a.get('href')
 								webbrowser.open("http://flipkart.com" + a.get('href'))
 						elif "Just at Re." in i.string:
@@ -43,8 +43,3 @@ class BigBillion:
 				print "No steal deals"
 		except:
 			print "Could not open"
-
-if __name__ == '__main__':
-	bb = BigBillion()
-	bb.get_item()
-
